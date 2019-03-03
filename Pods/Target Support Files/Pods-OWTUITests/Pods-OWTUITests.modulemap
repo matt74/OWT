@@ -1,0 +1,6 @@
+framework module Pods_OWTUITests {
+  umbrella header "Pods-OWTUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

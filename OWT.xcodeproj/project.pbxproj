@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A9584F0222981000055F0F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9584EF222981000055F0F2 /* AppDelegate.m */; };
+		2A9584F3222981000055F0F2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9584F2222981000055F0F2 /* MainViewController.m */; };
+		2A9584F6222981000055F0F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9584F4222981000055F0F2 /* Main.storyboard */; };
+		2A9584FB222981020055F0F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9584FA222981020055F0F2 /* Assets.xcassets */; };
+		2A9584FE222981020055F0F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9584FC222981020055F0F2 /* LaunchScreen.storyboard */; };
+		2A958501222981020055F0F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A958500222981020055F0F2 /* main.m */; };
+		2A95850B222981020055F0F2 /* OWTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A95850A222981020055F0F2 /* OWTTests.m */; };
+		2A958516222981020055F0F2 /* OWTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A958515222981020055F0F2 /* OWTUITests.m */; };
+		2A958528222982480055F0F2 /* MainHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A958527222982480055F0F2 /* MainHeaderViewController.m */; };
+		2A958529222982480055F0F2 /* MainHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A958527222982480055F0F2 /* MainHeaderViewController.m */; };
+		2A95852A222982480055F0F2 /* MainHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A958527222982480055F0F2 /* MainHeaderViewController.m */; };
+		2A95852F222984950055F0F2 /* OWT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A95852D222984950055F0F2 /* OWT.xcdatamodeld */; };
+		2A958530222984950055F0F2 /* OWT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A95852D222984950055F0F2 /* OWT.xcdatamodeld */; };
+		2A958531222984950055F0F2 /* OWT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A95852D222984950055F0F2 /* OWT.xcdatamodeld */; };
+		2A958536222988D10055F0F2 /* OWTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A958535222988D10055F0F2 /* OWTViewController.m */; };
+		2A958537222988D10055F0F2 /* OWTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A958535222988D10055F0F2 /* OWTViewController.m */; };
+		2A958538222988D10055F0F2 /* OWTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A958535222988D10055F0F2 /* OWTViewController.m */; };
+		2A95854122298B900055F0F2 /* URL+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A95854022298B900055F0F2 /* URL+CoreDataProperties.m */; };
+		2A95854222298B900055F0F2 /* URL+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A95854022298B900055F0F2 /* URL+CoreDataProperties.m */; };
+		2A95854322298B900055F0F2 /* URL+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A95854022298B900055F0F2 /* URL+CoreDataProperties.m */; };
+		2A95854B222995300055F0F2 /* URL+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A95854A222995300055F0F2 /* URL+CoreDataClass.m */; };
+		2A95854C222995300055F0F2 /* URL+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A95854A222995300055F0F2 /* URL+CoreDataClass.m */; };
+		2A95854D222995300055F0F2 /* URL+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A95854A222995300055F0F2 /* URL+CoreDataClass.m */; };
+		39CE00AA2229C72F004FE2F7 /* URLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CE00A92229C72F004FE2F7 /* URLTableViewCell.m */; };
+		39CE00AB2229C72F004FE2F7 /* URLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CE00A92229C72F004FE2F7 /* URLTableViewCell.m */; };
+		39CE00AC2229C72F004FE2F7 /* URLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CE00A92229C72F004FE2F7 /* URLTableViewCell.m */; };
+		39CE00B82229E084004FE2F7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CE00B72229E084004FE2F7 /* WebKit.framework */; };
+		78E019F6927AC687C7FDD51C /* Pods_OWTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA74338097EC3853969626F /* Pods_OWTUITests.framework */; };
+		D3BF879B4DF01E19F8B51753 /* Pods_OWT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70A2179EB6DC937D10A2CE1 /* Pods_OWT.framework */; };
+		F92CC7673A049394D92098E3 /* Pods_OWTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B9ED1FC7CD685E560B328C /* Pods_OWTTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A958507222981020055F0F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A9584E3222981000055F0F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A9584EA222981000055F0F2;
+			remoteInfo = OWT;
+		};
+		2A958512222981020055F0F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A9584E3222981000055F0F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A9584EA222981000055F0F2;
+			remoteInfo = OWT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EB847573A01DEFDA177F854 /* Pods-OWTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OWTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OWTTests/Pods-OWTTests.release.xcconfig"; sourceTree = "<group>"; };
+		2A9584EB222981000055F0F2 /* OWT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OWT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9584EE222981000055F0F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A9584EF222981000055F0F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A9584F1222981000055F0F2 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2A9584F2222981000055F0F2 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2A9584F5222981000055F0F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A9584FA222981020055F0F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A9584FD222981020055F0F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A9584FF222981020055F0F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A958500222981020055F0F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A958506222981020055F0F2 /* OWTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OWTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A95850A222981020055F0F2 /* OWTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWTTests.m; sourceTree = "<group>"; };
+		2A95850C222981020055F0F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A958511222981020055F0F2 /* OWTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OWTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A958515222981020055F0F2 /* OWTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWTUITests.m; sourceTree = "<group>"; };
+		2A958517222981020055F0F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A958526222982480055F0F2 /* MainHeaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainHeaderViewController.h; sourceTree = "<group>"; };
+		2A958527222982480055F0F2 /* MainHeaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainHeaderViewController.m; sourceTree = "<group>"; };
+		2A95852E222984950055F0F2 /* OWT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OWT.xcdatamodel; sourceTree = "<group>"; };
+		2A958534222988D10055F0F2 /* OWTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWTViewController.h; sourceTree = "<group>"; };
+		2A958535222988D10055F0F2 /* OWTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWTViewController.m; sourceTree = "<group>"; };
+		2A95853F22298B8F0055F0F2 /* URL+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "URL+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2A95854022298B900055F0F2 /* URL+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "URL+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2A958549222995300055F0F2 /* URL+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "URL+CoreDataClass.h"; sourceTree = "<group>"; };
+		2A95854A222995300055F0F2 /* URL+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "URL+CoreDataClass.m"; sourceTree = "<group>"; };
+		2EA74338097EC3853969626F /* Pods_OWTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OWTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CE00A22229C647004FE2F7 /* NotificationConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationConstants.h; sourceTree = "<group>"; };
+		39CE00A82229C72F004FE2F7 /* URLTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLTableViewCell.h; sourceTree = "<group>"; };
+		39CE00A92229C72F004FE2F7 /* URLTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLTableViewCell.m; sourceTree = "<group>"; };
+		39CE00B72229E084004FE2F7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		39CE00B9222B1443004FE2F7 /* ServerConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerConstants.h; sourceTree = "<group>"; };
+		624F46085EC41676FF45B12E /* Pods-OWT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OWT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OWT/Pods-OWT.debug.xcconfig"; sourceTree = "<group>"; };
+		659CC93D3B99105E3F567BAE /* Pods-OWT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OWT.release.xcconfig"; path = "Pods/Target Support Files/Pods-OWT/Pods-OWT.release.xcconfig"; sourceTree = "<group>"; };
+		C3507DEFED5335CF74330D59 /* Pods-OWTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OWTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OWTTests/Pods-OWTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3B9ED1FC7CD685E560B328C /* Pods_OWTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OWTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF91240FE37B4B6E3A5AE72A /* Pods-OWTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OWTUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OWTUITests/Pods-OWTUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF55C5A167A64FF3766343A5 /* Pods-OWTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OWTUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OWTUITests/Pods-OWTUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F70A2179EB6DC937D10A2CE1 /* Pods_OWT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OWT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A9584E8222981000055F0F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CE00B82229E084004FE2F7 /* WebKit.framework in Frameworks */,
+				D3BF879B4DF01E19F8B51753 /* Pods_OWT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A958503222981020055F0F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92CC7673A049394D92098E3 /* Pods_OWTTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A95850E222981020055F0F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E019F6927AC687C7FDD51C /* Pods_OWTUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A9584E2222981000055F0F2 = {
+			isa = PBXGroup;
+			children = (
+				2A9584ED222981000055F0F2 /* OWT */,
+				2A958509222981020055F0F2 /* OWTTests */,
+				2A958514222981020055F0F2 /* OWTUITests */,
+				2A9584EC222981000055F0F2 /* Products */,
+				39CE00B62229E084004FE2F7 /* Frameworks */,
+				2B6270A9029F721CC5318FE6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2A9584EC222981000055F0F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A9584EB222981000055F0F2 /* OWT.app */,
+				2A958506222981020055F0F2 /* OWTTests.xctest */,
+				2A958511222981020055F0F2 /* OWTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A9584ED222981000055F0F2 /* OWT */ = {
+			isa = PBXGroup;
+			children = (
+				2A9584EE222981000055F0F2 /* AppDelegate.h */,
+				2A9584EF222981000055F0F2 /* AppDelegate.m */,
+				2A958533222988BB0055F0F2 /* AppSuperClass */,
+				2A958523222981EB0055F0F2 /* Controllers */,
+				2A95853922298B300055F0F2 /* Data */,
+				2A95852C2229846E0055F0F2 /* Model */,
+				2A958532222985D20055F0F2 /* Storyboards */,
+				39CE00A12229C622004FE2F7 /* Utils */,
+				2A9584FA222981020055F0F2 /* Assets.xcassets */,
+				2A9584FF222981020055F0F2 /* Info.plist */,
+				2A958500222981020055F0F2 /* main.m */,
+			);
+			path = OWT;
+			sourceTree = "<group>";
+		};
+		2A958509222981020055F0F2 /* OWTTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A95850A222981020055F0F2 /* OWTTests.m */,
+				2A95850C222981020055F0F2 /* Info.plist */,
+			);
+			path = OWTTests;
+			sourceTree = "<group>";
+		};
+		2A958514222981020055F0F2 /* OWTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A958515222981020055F0F2 /* OWTUITests.m */,
+				2A958517222981020055F0F2 /* Info.plist */,
+			);
+			path = OWTUITests;
+			sourceTree = "<group>";
+		};
+		2A958523222981EB0055F0F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A958524222982120055F0F2 /* MainView */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2A958524222982120055F0F2 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				2A9584F1222981000055F0F2 /* MainViewController.h */,
+				2A9584F2222981000055F0F2 /* MainViewController.m */,
+				39CE00A72229C716004FE2F7 /* Cell */,
+				2A9585252229821E0055F0F2 /* Header */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		2A9585252229821E0055F0F2 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				2A958526222982480055F0F2 /* MainHeaderViewController.h */,
+				2A958527222982480055F0F2 /* MainHeaderViewController.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		2A95852C2229846E0055F0F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A95852D222984950055F0F2 /* OWT.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A958532222985D20055F0F2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2A9584FC222981020055F0F2 /* LaunchScreen.storyboard */,
+				2A9584F4222981000055F0F2 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2A958533222988BB0055F0F2 /* AppSuperClass */ = {
+			isa = PBXGroup;
+			children = (
+				2A958534222988D10055F0F2 /* OWTViewController.h */,
+				2A958535222988D10055F0F2 /* OWTViewController.m */,
+			);
+			path = AppSuperClass;
+			sourceTree = "<group>";
+		};
+		2A95853922298B300055F0F2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				39CE00B9222B1443004FE2F7 /* ServerConstants.h */,
+				2A958549222995300055F0F2 /* URL+CoreDataClass.h */,
+				2A95854A222995300055F0F2 /* URL+CoreDataClass.m */,
+				2A95853F22298B8F0055F0F2 /* URL+CoreDataProperties.h */,
+				2A95854022298B900055F0F2 /* URL+CoreDataProperties.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2B6270A9029F721CC5318FE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				624F46085EC41676FF45B12E /* Pods-OWT.debug.xcconfig */,
+				659CC93D3B99105E3F567BAE /* Pods-OWT.release.xcconfig */,
+				C3507DEFED5335CF74330D59 /* Pods-OWTTests.debug.xcconfig */,
+				1EB847573A01DEFDA177F854 /* Pods-OWTTests.release.xcconfig */,
+				DF91240FE37B4B6E3A5AE72A /* Pods-OWTUITests.debug.xcconfig */,
+				EF55C5A167A64FF3766343A5 /* Pods-OWTUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		39CE00A12229C622004FE2F7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				39CE00A22229C647004FE2F7 /* NotificationConstants.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		39CE00A72229C716004FE2F7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				39CE00A82229C72F004FE2F7 /* URLTableViewCell.h */,
+				39CE00A92229C72F004FE2F7 /* URLTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		39CE00B62229E084004FE2F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39CE00B72229E084004FE2F7 /* WebKit.framework */,
+				F70A2179EB6DC937D10A2CE1 /* Pods_OWT.framework */,
+				D3B9ED1FC7CD685E560B328C /* Pods_OWTTests.framework */,
+				2EA74338097EC3853969626F /* Pods_OWTUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A9584EA222981000055F0F2 /* OWT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A95851A222981020055F0F2 /* Build configuration list for PBXNativeTarget "OWT" */;
+			buildPhases = (
+				C44DA0CCC814E3030FE5E25E /* [CP] Check Pods Manifest.lock */,
+				2A9584E7222981000055F0F2 /* Sources */,
+				2A9584E8222981000055F0F2 /* Frameworks */,
+				2A9584E9222981000055F0F2 /* Resources */,
+				BEE69A0A79163DA66A612D68 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OWT;
+			productName = OWT;
+			productReference = 2A9584EB222981000055F0F2 /* OWT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A958505222981020055F0F2 /* OWTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A95851D222981020055F0F2 /* Build configuration list for PBXNativeTarget "OWTTests" */;
+			buildPhases = (
+				6C9BEE181B1CCBE8E03308F3 /* [CP] Check Pods Manifest.lock */,
+				2A958502222981020055F0F2 /* Sources */,
+				2A958503222981020055F0F2 /* Frameworks */,
+				2A958504222981020055F0F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A958508222981020055F0F2 /* PBXTargetDependency */,
+			);
+			name = OWTTests;
+			productName = OWTTests;
+			productReference = 2A958506222981020055F0F2 /* OWTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A958510222981020055F0F2 /* OWTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A958520222981020055F0F2 /* Build configuration list for PBXNativeTarget "OWTUITests" */;
+			buildPhases = (
+				91C208F90180459E240A497E /* [CP] Check Pods Manifest.lock */,
+				2A95850D222981020055F0F2 /* Sources */,
+				2A95850E222981020055F0F2 /* Frameworks */,
+				2A95850F222981020055F0F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A958513222981020055F0F2 /* PBXTargetDependency */,
+			);
+			name = OWTUITests;
+			productName = OWTUITests;
+			productReference = 2A958511222981020055F0F2 /* OWTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A9584E3222981000055F0F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = OWT;
+				TargetAttributes = {
+					2A9584EA222981000055F0F2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2A958505222981020055F0F2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2A9584EA222981000055F0F2;
+					};
+					2A958510222981020055F0F2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2A9584EA222981000055F0F2;
+					};
+				};
+			};
+			buildConfigurationList = 2A9584E6222981000055F0F2 /* Build configuration list for PBXProject "OWT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A9584E2222981000055F0F2;
+			productRefGroup = 2A9584EC222981000055F0F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A9584EA222981000055F0F2 /* OWT */,
+				2A958505222981020055F0F2 /* OWTTests */,
+				2A958510222981020055F0F2 /* OWTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A9584E9222981000055F0F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9584FE222981020055F0F2 /* LaunchScreen.storyboard in Resources */,
+				2A9584FB222981020055F0F2 /* Assets.xcassets in Resources */,
+				2A9584F6222981000055F0F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A958504222981020055F0F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A95850F222981020055F0F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C9BEE181B1CCBE8E03308F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OWTTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91C208F90180459E240A497E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OWTUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE69A0A79163DA66A612D68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OWT/Pods-OWT-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OWT/Pods-OWT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C44DA0CCC814E3030FE5E25E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OWT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A9584E7222981000055F0F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9584F3222981000055F0F2 /* MainViewController.m in Sources */,
+				2A95854122298B900055F0F2 /* URL+CoreDataProperties.m in Sources */,
+				2A958501222981020055F0F2 /* main.m in Sources */,
+				2A958528222982480055F0F2 /* MainHeaderViewController.m in Sources */,
+				2A958536222988D10055F0F2 /* OWTViewController.m in Sources */,
+				39CE00AA2229C72F004FE2F7 /* URLTableViewCell.m in Sources */,
+				2A95852F222984950055F0F2 /* OWT.xcdatamodeld in Sources */,
+				2A9584F0222981000055F0F2 /* AppDelegate.m in Sources */,
+				2A95854B222995300055F0F2 /* URL+CoreDataClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A958502222981020055F0F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A958529222982480055F0F2 /* MainHeaderViewController.m in Sources */,
+				2A958530222984950055F0F2 /* OWT.xcdatamodeld in Sources */,
+				39CE00AB2229C72F004FE2F7 /* URLTableViewCell.m in Sources */,
+				2A95854C222995300055F0F2 /* URL+CoreDataClass.m in Sources */,
+				2A95854222298B900055F0F2 /* URL+CoreDataProperties.m in Sources */,
+				2A95850B222981020055F0F2 /* OWTTests.m in Sources */,
+				2A958537222988D10055F0F2 /* OWTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A95850D222981020055F0F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A95852A222982480055F0F2 /* MainHeaderViewController.m in Sources */,
+				2A958531222984950055F0F2 /* OWT.xcdatamodeld in Sources */,
+				39CE00AC2229C72F004FE2F7 /* URLTableViewCell.m in Sources */,
+				2A95854D222995300055F0F2 /* URL+CoreDataClass.m in Sources */,
+				2A95854322298B900055F0F2 /* URL+CoreDataProperties.m in Sources */,
+				2A958516222981020055F0F2 /* OWTUITests.m in Sources */,
+				2A958538222988D10055F0F2 /* OWTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A958508222981020055F0F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A9584EA222981000055F0F2 /* OWT */;
+			targetProxy = 2A958507222981020055F0F2 /* PBXContainerItemProxy */;
+		};
+		2A958513222981020055F0F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A9584EA222981000055F0F2 /* OWT */;
+			targetProxy = 2A958512222981020055F0F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A9584F4222981000055F0F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9584F5222981000055F0F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A9584FC222981020055F0F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A9584FD222981020055F0F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A958518222981020055F0F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A958519222981020055F0F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A95851B222981020055F0F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 624F46085EC41676FF45B12E /* Pods-OWT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYHGF58ATX;
+				INFOPLIST_FILE = OWT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.owt.OWT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2A95851C222981020055F0F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 659CC93D3B99105E3F567BAE /* Pods-OWT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DYHGF58ATX;
+				INFOPLIST_FILE = OWT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.owt.OWT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2A95851E222981020055F0F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3507DEFED5335CF74330D59 /* Pods-OWTTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OWTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.owt.OWT.OWTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OWT.app/OWT";
+			};
+			name = Debug;
+		};
+		2A95851F222981020055F0F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB847573A01DEFDA177F854 /* Pods-OWTTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OWTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.owt.OWT.OWTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OWT.app/OWT";
+			};
+			name = Release;
+		};
+		2A958521222981020055F0F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF91240FE37B4B6E3A5AE72A /* Pods-OWTUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OWTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.owt.OWT.OWTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OWT;
+			};
+			name = Debug;
+		};
+		2A958522222981020055F0F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF55C5A167A64FF3766343A5 /* Pods-OWTUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OWTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.owt.OWT.OWTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OWT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A9584E6222981000055F0F2 /* Build configuration list for PBXProject "OWT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A958518222981020055F0F2 /* Debug */,
+				2A958519222981020055F0F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A95851A222981020055F0F2 /* Build configuration list for PBXNativeTarget "OWT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A95851B222981020055F0F2 /* Debug */,
+				2A95851C222981020055F0F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A95851D222981020055F0F2 /* Build configuration list for PBXNativeTarget "OWTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A95851E222981020055F0F2 /* Debug */,
+				2A95851F222981020055F0F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A958520222981020055F0F2 /* Build configuration list for PBXNativeTarget "OWTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A958521222981020055F0F2 /* Debug */,
+				2A958522222981020055F0F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A95852D222984950055F0F2 /* OWT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A95852E222984950055F0F2 /* OWT.xcdatamodel */,
+			);
+			currentVersion = 2A95852E222984950055F0F2 /* OWT.xcdatamodel */;
+			path = OWT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A9584E3222981000055F0F2 /* Project object */;
+}
